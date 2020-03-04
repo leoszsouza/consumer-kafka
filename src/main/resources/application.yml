@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+kafka.topic: topic_leo_test
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+
+
